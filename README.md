@@ -1,5 +1,5 @@
-First Contact*: lógica, procedimetos, especificação, implementação, testes
-==========================================================================
+First Contact*: lógica, procedimentos, especificação, implementação, testes
+===========================================================================
 Deu certo [:)](https://raw.githubusercontent.com/poo-2019-1/ava-00-procedimentos/master/yes.jpg)
 Deu errado [:(](https://raw.githubusercontent.com/poo-2019-1/ava-00-procedimentos/master/no.jpg)
 
@@ -7,7 +7,7 @@ Deu errado [:(](https://raw.githubusercontent.com/poo-2019-1/ava-00-procedimento
 
 ## Implementar usando métodos e testar segundo as especificações
 
-#### Prazo: 2019-03-10 Peso: 0.5 pts
+#### Prazo: 2019-03-10 Peso: 0.6 pts
 
 **Restrição: não podem ser usadas as bibliotecas do Java, por exemplo, a classe `Math`, `Scanner`, etc, inclusive os métodos de Integer, como `parseInt` ou métodos de String, EXCETO `length`, `charAt` e `equals`; Os Casos de Teste podem ser corrigidos, mas a especificação não pode ser alterada.**
 
@@ -50,6 +50,7 @@ System.out.println(potencia(7, -2) == 0);
 // 0.2 pts até aqui
 // Adicione mais 2 Casos de Teste
 ```
+
 ### Rotacionar String (_rotate_) 0.2 pts
 
 Dada uma `String` de entrada rotacioná-la em sentido horário.
@@ -68,6 +69,11 @@ System.out.println(s3); // rfwo
 System.out.println(s3.equals("rfwo") == true); // true
 System.out.println(rotate("kira").equals("akir") == true);
 System.out.println(rotate(rotate(s3)).equals("worf") == true);
+String s4 = "captain sisko";
+System.out.println(rotate(s4).equals("ocaptain sisk") == true);
+for (int i = 0; i < 5; i++) s4 = rotate(s4);
+System.out.println(rotate(s4).equals("siskocaptain ") == true);
+
 // 0.1 pts até aqui
 // Casos Especiais
 System.out.println(rotate("").equals("") == true);
@@ -99,6 +105,13 @@ System.out.println(chop("spock").equals("spoc") == true);
 System.out.println(chop("Q").equals("") == true);
 System.out.println(chop("").equals("") == true);
 System.out.println(chop(chop(chop("abc"))).equals("") == true);
+String s4 = "jean-luc picard";
+System.out.println(s4);
+while (s4.length() > 0) {
+    s4 = chop(s4);
+    System.out.println(s4);
+}
+System.out.println(s4.equals("") == true);
 // 0.2 pts até aqui
 // Adicione mais 2 Casos de Teste:
 ```
