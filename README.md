@@ -7,6 +7,8 @@ Deu errado [:(](https://raw.githubusercontent.com/poo-2019-1/atividade-00-proced
 
 ## Implementar usando métodos e testar segundo as especificações
 
+Classroom link <https://classroom.github.com/a/a8IPB92y>, clique para clonar o repositório, certificando-se que possui uma conta no GitHub e seja membro da organização poo-2019-1.
+
 #### Prazo: 2019-03-10 Peso: 0.6 pts
 
 **Restrição: não podem ser usadas as bibliotecas do Java, por exemplo, a classe `Math`, `Scanner`, etc, inclusive os métodos de Integer, como `parseInt` ou métodos de String, EXCETO `length`, `charAt` e `equals`; Os Casos de Teste podem ser corrigidos, mas a especificação não pode ser alterada.**
