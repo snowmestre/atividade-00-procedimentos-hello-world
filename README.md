@@ -3,8 +3,6 @@ First Contact*: lógica, procedimentos, especificação, implementação, testes
 Deu certo [:)](https://raw.githubusercontent.com/poo-2019-1/atividade-00-procedimentos-hello-world/master/yes.jpg)
 Deu errado [:(](https://raw.githubusercontent.com/poo-2019-1/atividade-00-procedimentos-hello-world/master/no.jpg)
 
-* * *
-
 ## Implementar usando métodos e testar segundo as especificações
 
 Classroom link <https://classroom.github.com/a/a8IPB92y>, clique para clonar o repositório, certificando-se que possui uma conta no GitHub e seja membro da organização poo-2019-1.
