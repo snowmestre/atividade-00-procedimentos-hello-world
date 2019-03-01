@@ -1,7 +1,7 @@
 First Contact*: lógica, procedimentos, especificação, implementação, testes
 ===========================================================================
-Deu certo [:)](https://raw.githubusercontent.com/poo-2019-1/ava-00-procedimentos/master/yes.jpg)
-Deu errado [:(](https://raw.githubusercontent.com/poo-2019-1/ava-00-procedimentos/master/no.jpg)
+Deu certo [:)](https://raw.githubusercontent.com/poo-2019-1/atividade-00-procedimentos-hello-world/master/yes.jpg)
+Deu errado [:(](https://raw.githubusercontent.com/poo-2019-1/atividade-00-procedimentos-hello-world/master/no.jpg)
 
 * * *
 
