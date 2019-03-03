@@ -72,7 +72,11 @@ System.out.println(rotate(rotate(s3)).equals("worf") == true);
 String s4 = "captain sisko";
 System.out.println(rotate(s4).equals("ocaptain sisk") == true);
 for (int i = 0; i < 5; i++) s4 = rotate(s4);
-System.out.println(rotate(s4).equals("siskocaptain ") == true);
+// PATCH replace
+// System.out.println(rotate(s4).equals("siskocaptain ") == true);
+// by
+System.out.println(s4.equals("siskocaptain ") == true); // 5 letras
+// END PATCH
 
 // 0.1 pts até aqui
 // Casos Especiais
